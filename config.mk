@@ -20,3 +20,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/simplix/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/simplix/overlay/common/
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    SimplixCenter \
+    AospKeyboard
+
