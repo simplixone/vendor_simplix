@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Boot Animation
-PRODUCT_COPY_FILES += vendor/pixelstyle/media/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += vendor/simplix/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Simplix Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/simplix/overlay
@@ -23,5 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     SimplixCenter \
+    OneTweaks \
     AospKeyboard
 
